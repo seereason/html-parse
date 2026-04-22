@@ -1,8 +1,7 @@
-name:                sr-html-parse
-version:             0.3.0
+name:                html-parse
+version:             0.2.1.0
 synopsis:            A high-performance HTML tokenizer
 description:
-    SeeReason fork of the html-parse libary on hackage.
     This package provides a fast and reasonably robust HTML5 tokenizer built
     upon the @attoparsec@ library. The parsing strategy is based upon the HTML5
     parsing specification with few deviations.
@@ -44,7 +43,7 @@ description:
     std dev              140.9 μs   (113.6 μs .. 174.5 μs)
     @
 
-homepage:            http://github.com/seereason/html-parse
+homepage:            http://github.com/bgamari/html-parse
 license:             BSD3
 license-file:        LICENSE
 author:              Ben Gamari
